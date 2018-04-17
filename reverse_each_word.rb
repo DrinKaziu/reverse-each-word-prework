@@ -3,5 +3,5 @@ def reverse_each_word(sentence)
   sentence.each do |string|
     arr << string.reverse
   end
-  arr
+  puts arr
 end
